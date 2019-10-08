@@ -1,0 +1,128 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+  .bnr-txt h1 {
+    font-size: 45px;
+    line-height: 70px;
+  }
+
+  .bnr-txt h1 span {
+    margin-left: 40px;
+  }
+
+  .follow-img {
+    grid-template-columns: 1fr
+  }
+
+  .f-logo p {
+    padding-bottom: 40px;
+  }
+  
+}
+
+/* Small devices (landscape phones upto 767px) */
+@media (max-width: 767px) {
+  .bnr-btn a {
+    padding: 15px 30px;
+  }
+
+  .navbar-light .navbar-brand {
+    max-width: 60%;
+  }
+
+  .bio-top img {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .gallery {
+    margin-top: 80px;
+  }
+
+  .glr-big {
+    grid-template-columns: 1fr;
+  }
+
+  .glr-sm {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .btn-empty {
+    padding: 10px 20px;
+  }
+
+  .blog-left {
+    margin-top: 0;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .bnr-txt h1 {
+    font-size: 80px;
+    line-height: 105px;
+  }
+
+  .bnr-txt h1 span {
+    margin-left: 70px;
+  }
+
+  .follow-img {
+    grid-template-columns: 1fr 1fr
+  }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 1367px) {
+   #blog .blog-left {
+    margin-top: 0;
+  }
+    
+   #blog .bio-txt {
+    padding: 25px 0;
+  }
+    
+       
+   #bio .bio-txt {
+    padding: 50px 0;
+  }
+    
+    .btn-empty {
+        padding: 15px 30px
+    }
+}
+    
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+  .bnr-txt h1 {
+    font-size: 90px;
+    line-height: 105px;
+  }
+
+  .bnr-txt h1 span {
+    margin-left: 90px;
+  }
+
+  .follow-img {
+    grid-template-columns: 1fr 1fr 1fr
+  }
+ }
+
+/* Large devices (desktops and laptop) */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: rgba(255, 201, 0, .8);
+    padding: 15px;
+  }
+
+  .navbar .s-icon {
+    margin-left: 0;
+  }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+  .container {
+  max-width: 1400px;
+}
+}
